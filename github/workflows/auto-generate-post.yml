@@ -1,0 +1,10 @@
+nbdaltechnology-lang/my-blogger/
+├── README.md                          ✅
+├── SETUP.md                           ✅
+├── .gitignore                         ✅
+├── scripts/
+│   ├── generate_post.py              ✅
+│   └── requirements.txt              ✅
+├── posts/
+│   └── html/                         (مجلد المنشورات)
+└── images/                           (مجلد الصور)
