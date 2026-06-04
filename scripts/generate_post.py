@@ -70,7 +70,8 @@ def generate_blog_content(topic):
 }}"""
     
     try:
-        model = genai.GenerativeModel('gemini-pro')
+        # استخدام gemini-1.5-flash بدلاً من gemini-pro
+        model = genai.GenerativeModel('gemini-1.5-flash')
         response = model.generate_content(prompt)
         
         # Extract JSON from response
